@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>SignIn E-commerce campstore</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+   </head>
+   <body class="background-signin">
+       <div class="cont">
+           <div class="form">
+               <h2 class="h2sign">Sign In</h2>
+               <label>
+                   <span>Email Address</span>
+                   <input type="email" name="email">
+               </label>
+               <label>
+                   <span>Password</span>
+                   <input type="password" name="password">
+               </label>
+               <button class="submit" type="button">Sign In</button>
+               <p class="forgot-pass">Forgot Password</p>
+               <div class="socialmedia">
+                   <ul>
+                       <li><img src="img/facebook.png" alt=""></li>
+                       <li><img src="img/google.png" alt=""></li>
+                       <li><img src="img/instagram.png" alt=""></li>
+                   </ul>
+               </div>
+           </div>
+           <div class="subcont">
+               <div class="img">
+                   <div class="img-text mup">
+                       <h2>New client?</h2>
+                       <p>sign up and discover our offers</p>
+                   </div>
+                   <div class="img-text min">
+                       <h2>Already one of Us</h2>
+                       <p>So just sign in we have missed you</p>
+                   </div>
+                   <div class="img-btn">
+                       <span class="mup">Sign Up</span>
+                       <span class="min">Sign In</span>
+                   </div>
+               </div>
+               <div class="form sign-up">
+                   <h2>Sign Up</h2>
+                   <label>
+                       <span>Name</span>
+                       <input type="text">
+                   </label>
+                   <label>
+                       <span>Email</span>
+                       <input type="email">
+                   </label>
+                   <label>
+                       <span>Password</span>
+                       <input type="password">
+                   </label>
+                   <label>
+                       <span>Confirm your password</span>
+                       <input type="password">
+                   </label>
+                   <button type="button" class="submit">Sign Up Now</button>
+               </div>
+           </div>
+       </div>
+      <script>
+        document.querySelector('.img-btn').addEventListener('click', function()
+        {
+            document.querySelector('.cont').classList.toggle('s-signup')
+        }
+    );
+       </script>
+   </body>
+</html>

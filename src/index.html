@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>E-commerce campstore</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <section class="home">
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="img/logo-small.png" alt="">
+      </div>
+    </div>
+    <div class="hero1">
+      <div class="row1">
+        <div class="left-sec">
+          <div class="content1">
+            <h2>Online</h2>
+            <h1>Camping </h1>
+            <h1> Tools</h1>
+            <h3>STORE</h3>
+            <a href="productspage.html" class="btn">Shop Now</a> 
+          </div>
+          <div class="product">
+            <div class="product-first">
+              <div class="product-img">
+                <img src="img/product/1.png">
+              </div>
+              <div class="product-description">
+                <h2 class="company-title">The North Face</h2>
+                <h3 class="company-line">Solid Bag Pack</h3>
+                <span class="price">300DT</span>
+              </div>
+            </div>
+            <div class="product-second">
+              <div class="product-img">
+                <img src="img/product/2.png">
+              </div>
+              <div class="product-description">
+                <h2 class="company-title">compass</h2>
+                <h3 class="company-line">gold compass</h3>
+                <span class="price">90DT</span>
+              </div>
+            </div>
+            <div></div>
+          </div>
+        </div>
+        <div class="right-sec">
+          <div class="bags-brand">
+            <div><img src="img/1.png"></div>
+            <div><img src="img/2.png"></div>
+            <div><img src="img/3.png"></div>
+            <div><img src="img/4.png"></div>
+          </div>
+        </div>
+      </div>
+      <div class="social-media">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".bags-brand").slick({
+      autoplay: true,
+	    speed:500,
+      dots: true,
+      fade: true,
+      cssEase: 'linear'
+    });
+  });
+</script>
+</body>
+</html>
